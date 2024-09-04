@@ -13,8 +13,8 @@ import './globals.css'
 const HEAD_SCRIPTS = process.env.HEAD_SCRIPTS as string
 const ENABLE_PROTECT = !isUndefined(process.env.ACCESS_PASSWORD) && process.env.ACCESS_PASSWORD !== ''
 
-const APP_NAME = 'Talk with Gemini'
-const APP_DEFAULT_TITLE = 'Talk with Gemini'
+const APP_NAME = 'Gemini AI'
+const APP_DEFAULT_TITLE = 'Gemini AI'
 const APP_TITLE_TEMPLATE = '%s - PWA App'
 const APP_DESCRIPTION =
   'Deploy your private Gemini application for free with one click, supporting Gemini 1.5 Pro, Gemini 1.5 Flash, Gemini Pro and Gemini Pro Vision models. 一键免费部署您的私人 Gemini 应用, 支持 Gemini 1.5 Pro、Gemini 1.5 Flash、Gemini Pro 和 Gemini Pro Vision 模型。'
